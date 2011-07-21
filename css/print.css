@@ -1,0 +1,142 @@
+.status, ul.gallery {
+	display: none;
+}
+
+body {
+	margin: 8px 16px;
+	padding: 0;
+	font-size: 10pt;
+	font-family: "book antiqua", "times new roman", serif;
+	background: white;
+}
+
+abbr {
+	border: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #666;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+	.contact {
+		padding: 0 4px;
+		text-align: center;
+	}
+	#summary h1 {
+		font-family: tahoma, arial, sans-serif;
+		font-variant: small-caps;
+		padding: 0;
+		margin: 0;
+		font-size: 14pt;
+	}
+	.addr, .contact-via {
+		height: 20px;
+	}
+	.contact-via span {
+		margin-right: 16px;
+	}
+	.tel .value {
+		font-weight: bold;
+	}
+	
+h2 {
+	font-size: 14pt;
+	margin-bottom: -6px;
+}
+h3 {
+	font-size: 12pt;
+	margin: 4px 0 2px 0;
+	padding: 0;
+}
+	#education {
+		page-break-after: always;
+	}
+
+	#experience,
+	#education,
+	#personal,
+	#technical {
+		margin: 0 8px;
+	}
+	#experience h2 {
+		color: #006;
+	}
+		#experience .vcalendar {
+			border-top: 1px solid #006;
+		}
+	
+	#education h2 {
+		color: #060;
+	}
+		#education .vcalendar {
+			border-top: 1px solid #060;
+		}
+		
+	#personal h2 {
+		color: #600;
+	}
+		#personal .personal {
+			border-top: 1px solid #600;
+		}
+		
+	#technical h2 {
+		color: #606;
+	}
+		#technical .tags {
+			border-top: 1px solid #606;
+		}
+
+.vcalendar,
+.personal,
+.tags {
+	margin: 0;
+	padding: 0 4px;
+	list-style-type: none;
+}
+
+	.vevent {
+		padding-bottom: 4px;
+	}
+	p.description {
+		text-align: justify;
+		clear: right;
+		margin: 4px 14px;
+	}
+	.tags li ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0 8px;
+	}
+		.tags li ul li {
+			display: inline;
+			padding: 4px;
+			line-height: 1.5em;
+		}
+		
+	.personal li ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0 4px;
+	}
+		.personal li ul li {
+			padding: 4px 0;
+		}
+
+.honors { 
+	font-style: italic;
+}
+
+.date_duration {
+	float: right;
+	margin-top: -16px;
+}
+
+.updated {
+	font-size: 10pt;
+	text-align: center;
+	width: 90%;
+	margin: 32px auto 0 auto;
+	border-top: 2px solid black;
+}

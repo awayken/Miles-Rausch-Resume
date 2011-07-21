@@ -1,0 +1,229 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+	font-family: verdana, arial, sans-serif;
+	background: url("resume-pattern.jpg") repeat-y center;
+}
+
+abbr {
+	border-bottom: 1px dotted black;
+}
+
+a:link, a:visited {
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid #666;
+}
+a:hover, a:active {
+	color: #CCC;
+}
+
+#content {
+	background: url("resume-bottom.jpg") no-repeat bottom center;
+}
+
+.hresume {
+	width: 880px;
+	padding: 10px;
+	margin: 0 auto;
+	background: url("resume-top.jpg") no-repeat top center;	
+}
+
+	* html #summary { padding-top: 10px; }
+
+	.contact {
+		border: 2px solid black;
+		height: 116px;
+		padding: 0 4px;
+		text-align: center;
+	}
+	#summary h1 {
+		font-family: tahoma, arial, sans-serif;
+		font-variant: small-caps;
+		padding: 0;
+		margin: 0;
+		font-size: 4em;
+	}
+	.addr, .contact-via {
+		height: 20px;
+	}
+	.contact-via span {
+		margin-right: 16px;
+	}
+	.tel .value {
+		font-weight: bold;
+	}
+	
+	#summary,
+	#experience,
+	#education,
+	#personal,
+	#technical {
+		clear: both;
+		margin: 16px auto;
+		width: 810px;
+	}
+	
+	#experience {
+		background: url("experience-section.jpg") no-repeat bottom left;
+	}
+	#experience h2 {
+		background: url("experience-h2.jpg") #006 no-repeat top left;
+	}
+	#experience h3 {
+		color: #006;
+	}
+		#experience .vcalendar {
+			border: 2px solid #006;
+		}
+	
+	#education {
+		background: url("education-section.jpg") no-repeat bottom left;
+	}
+	#education h2 {
+		background: url("education-h2.jpg") #060 no-repeat top left;
+	}
+	#education h3 {
+		color: #060;
+	}
+		#education .vcalendar {
+			border: 2px solid #060;
+		}
+		
+	#personal {
+		background: url("personal-section.jpg") no-repeat bottom left;
+	}
+	#personal h2 {
+		background: url("personal-h2.jpg") #600 no-repeat top left;
+	}
+	#personal h3 {
+		color: #600;
+	}
+		#personal .personal {
+			border: 2px solid #600;
+		}
+		
+	#technical {
+		background: url("technical-section.jpg") no-repeat bottom left;
+	}
+	#technical h2 {
+		background: url("technical-h2.jpg") #606 no-repeat top left;
+	}
+	#technical h3 {
+		color: #606;
+	}
+		#technical .tags {
+			border: 2px solid #606;
+		}
+	
+	h2 {
+		float: left;
+		width: 40px;
+		height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+		h2 span {
+			display: none;
+		}
+	h3 {
+		font-size: 1.7em;
+		font-family: "trebuchet ms", arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		letter-spacing: .15em;
+	}
+		
+.vcalendar,
+.personal,
+.tags {
+	margin: 0;
+	padding: 4px;
+	list-style-type: none;
+	margin-left: 40px;
+	min-height: 200px;
+}
+
+	.vevent {
+		padding-bottom: 8px;
+	}
+	p.description {
+		text-align: justify;
+		clear: right;
+		margin: 8px 24px;
+		font-size: .9em;
+	}
+	
+	.tags li ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 8px;
+	}
+		.tags li ul li {
+			display: inline;
+			padding: 8px;
+			line-height: 1.5em;
+		}
+		
+	.personal li ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 8px;
+	}
+		.personal li ul li {
+			padding: 4px 0;
+		}
+	
+.updated { display: none; }
+	
+.honors { 
+	font-style: italic;
+}
+
+.date_duration {
+	float: right;
+	margin-top: -16px;
+}
+
+.status {
+	font-size: .75em;
+	text-align: center;
+	width: 828px;
+	margin: 0 auto;
+}
+	.go {
+		border-top: 1px solid green;
+		border-bottom: 1px solid green;
+		color: green;
+		background: #ecf9ee;
+	}
+	.stop {
+		border-top: 1px solid red;
+		border-bottom: 1px solid red;
+		color: red;
+		background: #f9ecec;
+	}
+	
+ul.gallery {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	height: 100px;
+	width: 300px;
+}
+	ul.gallery li {
+		float: left;
+		height: 100px;
+		width: 100px;
+		background: url("gallery.jpg") no-repeat center center;
+	}
+		ul.gallery li a {
+			border: none;
+		}
+		
+		ul.gallery li img {
+			margin-top: 12px;
+		}
